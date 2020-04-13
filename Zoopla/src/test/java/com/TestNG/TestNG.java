@@ -1,20 +1,27 @@
 package com.TestNG;
 
 
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.zoopla.Zooplaclass;
 
-public class TestNG extends Zooplaclass{ 
+
+
+public class TestNG extends Zooplaclass { 
 TestNG test;
- @BeforeTest
+ 
+
+
+@BeforeTest
  public void runsetup() {
 	 
-	test=new TestNG();
+	test= new TestNG();
 	 test.openbrowser();
 	 test.maximizeBrowser();
 	 test.getUrl();
+	 test.closecookies();
 	 }
 
 @Test

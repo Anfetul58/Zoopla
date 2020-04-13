@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20450" started-at="2020-03-25T10:47:50 EDT" finished-at="2020-03-25T10:48:11 EDT">
+  <suite name="Default suite" duration-ms="36165" started-at="2020-04-13T13:08:36 EDT" finished-at="2020-04-13T13:09:12 EDT">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Zoopla@74650e52]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="20450" started-at="2020-03-25T10:47:50 EDT" finished-at="2020-03-25T10:48:11 EDT">
-      <class name="com.TestNG.TestNG">
-        <test-method status="PASS" signature="runsetup()[pri:0, instance:com.TestNG.TestNG@5a1c0542]" name="runsetup" is-config="true" duration-ms="10578" started-at="2020-03-25T10:47:50 EDT" finished-at="2020-03-25T10:48:01 EDT">
+    <test name="Default test" duration-ms="36165" started-at="2020-04-13T13:08:36 EDT" finished-at="2020-04-13T13:09:12 EDT">
+      <class name="com.runner.Zoopla">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.Zoopla@74650e52]" name="setUpClass" is-config="true" duration-ms="141" started-at="2020-04-13T13:08:36 EDT" finished-at="2020-04-13T13:08:36 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runsetup -->
-        <test-method status="PASS" signature="getTrip()[pri:0, instance:com.TestNG.TestNG@5a1c0542]" name="getTrip" duration-ms="9830" started-at="2020-03-25T10:48:01 EDT" finished-at="2020-03-25T10:48:11 EDT">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Zoopla@74650e52]" name="runScenario" duration-ms="12806" started-at="2020-04-13T13:08:36 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-13T13:08:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Zoopla website validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zoopla"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTrip -->
-      </class> <!-- com.TestNG.TestNG -->
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Zoopla@74650e52]" name="runScenario" duration-ms="23087" started-at="2020-04-13T13:08:49 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-13T13:09:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to signin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zoopla"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.Zoopla@74650e52]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2020-04-13T13:09:12 EDT" finished-at="2020-04-13T13:09:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Zoopla -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
