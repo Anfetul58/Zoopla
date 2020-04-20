@@ -17,7 +17,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		)
 
 
-public class Zoopla extends AbstractTestNGCucumberTests  {
+public class Zoopla extends AbstractTestNGCucumberTests   {
 
 }
 
